@@ -12,13 +12,13 @@ public class Aula05 {
          if(N % 2 != 0) {
             System.out.println("Weird");
         }        
-        if((N > 2 & N < 5) & N % 2 == 0) {
+         else if((N > 2 & N < 5) & N % 2 == 0) {
             System.out.println("Not Weird");
         }
-        if(N > 6 & N <= 20) {
+         else if(N > 6 & N <= 20) {
             System.out.println("Weird");
         }
-        if (N > 20 & N % 2 == 0) {
+         else if (N > 20 & N % 2 == 0) {
             System.out.println("Not Weird");
         }
     }
